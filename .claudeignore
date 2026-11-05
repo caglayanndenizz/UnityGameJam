@@ -1,0 +1,79 @@
+# .claudeignore — keep Claude from reading/indexing large, generated, or binary files
+# that aren't useful for understanding or editing this Unity project.
+
+# Unity-generated caches and build output (can be gigabytes, fully regenerable)
+Library/
+Temp/
+Obj/
+obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+.utmp/
+MemoryCaptures/
+Recordings/
+
+# IDE / tooling caches and generated project files
+.vs/
+.idea/
+.gradle/
+.consulo/
+ExportedObj/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+
+# Large binary art, audio, and video assets (not human-readable, bloat context)
+*.psd
+*.psb
+*.fbx
+*.blend
+*.blend1
+*.max
+*.mb
+*.ma
+*.obj
+*.3ds
+*.dae
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tga
+*.tif
+*.tiff
+*.exr
+*.hdr
+*.dds
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.mp3
+*.ogg
+*.aif
+*.aiff
+
+# Compiled binaries / archives
+*.dll
+*.exe
+*.so
+*.dylib
+*.a
+*.lib
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.apk
+*.aab
+*.ipa
+
+# Unity asset/scene binary formats stay out too — large and not text-diffable,
+# but .meta files (small, text) are left in since they carry GUID references.
+*.unitypackage
