@@ -1,220 +1,171 @@
 # Lucky Rod Game Design Document
 
-Nov 5, 2026 · @chaggy
+Nov 6, 2026 · @chaggy
 
 ## Summary
 
-Lucky Rod (working title) is a single-player game where you catch fish by trying to stop the needle of a horizontal dial on your lucky number. The goal is to complete each day by catching a Golden Fish before your bait runs out, and to reach as many days as possible.
+Lucky Rod (working title) is a single-screen push-your-luck fishing game. The player keeps fishing to land exactly on the day's lucky number and tries to stay ahead of rising debt.
 
 | Topic | Decision |
 | --- | --- |
 | Jam theme | Lucky number |
-| Genre | Timing and score-driven fishing game |
+| Genre | Push-your-luck fishing game with Balatro-style charms |
 | Players | Single-player |
+| Visual style | Single-screen, minimalist pixel art |
 | Development time | 1 week |
 | AI use | Allowed, development will use Claude Code |
-| Score | Days reached |
 | Engine | Unity |
 
 ## Core loop
 
-Each cast costs 1 bait, and the result depends on the zone where the needle stops on the dial.
+A day lasts until the player chooses to return to the harbor or tears the net.
 
-1. A lucky number from 1 to 100 is set at the start of the game. The player can type it or get a random one.
-2. The player casts and spends 1 bait.
-3. The needle starts at a random number and moves between 1 and 100.
-4. The player stops the needle.
-5. The result is calculated and the needle speeds up slightly.
+1. Each morning, the harbor fortune teller announces the day's lucky number.
+2. The player casts the rod and catches a numbered fish.
+3. The fish goes into the bucket and its number is added to the bucket total.
+4. The player chooses to cast again or return to the harbor.
+5. The player sells the catch and spends money on bait and rods.
+6. The next day starts with a new lucky number.
 
-The random start is essential. If the needle always started at 1, the player could break the game by picking an easy number such as 1 or 100.
+&#91;embedded content: game flow · one day\]
 
-If the Golden zone reaches the end of the dial, it continues from the other end. For example, if the lucky number is 100, the zone wraps around to 1 and 2.
+The flow assumes debt is paid before the shop opens.
 
-| Dial share | Result | Extra effect |
+## Bucket and fish
+
+Returning with a bucket total exactly equal to the lucky number triples the payout, but going over it loses the whole catch.
+
+| Bucket total | Outcome | Money earned |
 | --- | --- | --- |
-| Lucky number ±2 (5%) | Golden Fish | Completes the day. |
-| 8% | Rare Fish | Widens the Golden zone and the Rare zone by 1 number. This makes the lucky number easier to reach. |
-| 10% | Good Fish | You can shred this into a bait. +2 |
-| 10% | Common Fish | Not impressive but still great. You can shred this to a bait +1 |
-| Remaining area | Crap | Adds one more unlucky zone. |
+| Below the lucky number | Normal sale | Bucket total |
+| Equal to the lucky number | Jackpot | Bucket total × 3 |
+| Above the lucky number | Net tears, all fish escape | 0 |
 
-## Dial
+With a lucky number of 17, returning with 12 earns 12 and returning with 17 earns 51.
 
-The counter is a horizontal dial with a needle that moves between 1 and 100, and it is the most important part of the game.
-
-- The dial always shows the full 1-100 range, with numbers under the tick marks.
-- The lucky number stays in its real position on the dial and is clearly marked.
-- The current number is shown above the needle.
-- Zones use subtle colors that do not stand out too much.
-- Zones are not placed side by side. The code distributes them according to their shares.
-- The layout is regenerated every day and stays fixed for that day.
-- At the start, the unlucky zone takes up 5% and Crap takes up about 62%.
-
-The code places zones in this order:
-
-1. The Golden zone is placed on the lucky number.
-2. The 3 numbers on each side of the Golden zone cannot be Crap. Any numbers left empty here become Common Fish.
-3. The unlucky zone is placed outside the Golden zone and this safe area.
-4. Rare, Good and Common zones are distributed across the empty spaces. Each share is split into 1-2 pieces, and each piece is at least 3 numbers wide.
-5. Everything left over becomes Crap.
-
-If fixed zones feel good, they turn into swimming fish shadows during polish. Rare Fish are small and fast, and Good Fish are large and slow. The Golden zone stays fixed on the lucky number.
-
-## Day system and Last Chance
-
-The Golden Fish ends the day. The game ends when the Last Chance is missed too.
-
-&#91;embedded content: game flow · day loop and Last Chance\]
-
-The Golden Fish check comes first after every cast. The bait check only runs if no Golden Fish was caught.
-
-### Unlucky zones
-
-- The first unlucky zone is chosen again every day and is about 5 numbers wide.
-- Unlucky zones start hidden. Once hit, a zone stays red until the end of the day.
-- If the needle stops in this zone, the player loses 2 bait in total.
-- Bait cannot go below 0.
-- A Crap result adds one more unlucky zone for that day.
-- There can be at most 5 unlucky zones in a day.
-- Unlucky zones are placed outside the Golden zone and the safe area.
-- If the needle stops in an unlucky zone, only the bait penalty applies. The Crap effect does not trigger.
-- Added unlucky zones are removed at the end of the day.
-
-### Zone expansion
-
-- The Golden zone starts at ±2 every day.
-- Each Rare Fish widens the Golden zone and the Rare zone by 1 number.
-- Expansion takes space from the Crap area and resets at the end of the day.
-- The daily expansion limit is stored in the settings file, with a starting value of 2.
-
-### Days
-
-- The player starts day 1 with 10 bait.
-- The day ends when a Golden Fish is caught.
-- Remaining bait carries over to the next day, and 5 bait are added.
-- The lucky number stays the same for the whole run.
-- The needle starts slightly faster each new day.
-
-| Day | Bait added at the start of the day |
+| Fish | Number |
 | --- | --- |
-| 1 | Start: 10 |
-| 2 | +5 |
-| 3 | +5 |
-| 4 | +5 |
-| 5 | +5 |
+| Anchovy | 2 |
+| Sea bass | 5 |
+| Bonito | 7 |
+| Cursed fish | 13 |
 
-### Last Chance
+### Cursed fish
 
-- When bait runs out, the player gets one free last cast and the needle slows down by one step.
-- An exact hit gives a Golden Fish and completes the day.
-- Every other result, including an unlucky zone, ends the game.
-- The Golden Fish check runs before the bait check. If the player catches a Golden Fish with their last bait, the Last Chance screen does not appear.
+- It does not add to the bucket total.
+- A random fish escapes from the bucket, and the total drops by its number.
+- If the bucket is empty, nothing happens.
 
-## Screens and warnings
+## Fortune teller
 
-The player must always be able to see their bait status and why the game ended.
+The fortune teller gives the player the information needed to judge each cast.
 
-| Moment | What to show |
+- The lucky number is chosen each morning from 12 to 24.
+- The screen shows the day's fish list.
+- The fortune teller can give hints such as "Bonito is plentiful today."
+- Rarely, the lucky number is 13. On those days, the cursed fish becomes a lucky fish.
+
+## Shop and charms
+
+Money buys bait and rods that work like Balatro's charms and change how a run plays.
+
+| Item | Effect |
 | --- | --- |
-| During play | Day, bait count, lucky number and dial |
-| When a Rare Fish is caught | "Golden zone widened: ±3" message |
-| When Crap is caught | "New unlucky zone added" message |
-| When 1 bait is left | The bait counter turns red and a "Last bait!" warning appears |
-| When bait runs out | "You're out of bait! One last cast with a bare hook. You need an exact hit: \[lucky number\]" |
-| When a day ends | Day number and a "Continue" button |
-| When the game ends | "You're out of bait", days reached and a "Play Again" button |
+| Deep Bait | Only high-number fish come |
+| Amulet | Cancels the cursed 13 once |
+| Second Bucket | Lets the player play with two separate targets |
+
+## Debt
+
+Rent or boat debt rises every day, and the game ends if the player cannot pay.
+
+## Single screen
+
+The whole game runs on one minimalist pixel art screen, with both decision buttons always in view.
+
+&#91;embedded content: screen layout · example values\]
 
 ## Technical notes and scope
 
-Keeping balance values in one place reduces testing time.
+Game values stay in data so balance and scope can change during development.
 
-- Keep all balance values in a single settings file.
-- `StartDay()` handles all start-of-day setup in one place. The dial layout, zone expansions and unlucky zones are refreshed here.
+- Keep fish, shop and debt values in a single settings file.
+- `StartDay()` picks the lucky number and fish list, then empties the bucket.
 - `ResetRun()` resets the values for a new game and calls `StartDay()`.
-- Tune balance with speed increase, zone shares and daily bait first.
-- Simulate the game with bots of different hit rates to measure the average days reached.
-
-The first version has no money system, shop, skill tree, depth choice, streak multiplier, "sell or turn into bait" option or persistent saves. If time allows, the first addition is a fish album.
+- Define charms as data with small effect hooks, so new ones are cheap to add.
+- Use bot simulations to measure how well safe play performs against rising debt.
 
 ## One-week plan
 
-By the end of day 4, the game must be playable from start to finish, even with basic visuals.
+The game must be playable from start to finish by the end of day 4, even with basic visuals.
 
-- [ ] Day 1: Lucky number selection, dial and stopping
-- [ ] Day 2: Bait, Golden Fish, day end and losing
-- [ ] Day 3: Zone layout, fish effects and rising speed
-- [ ] Day 4: Unlucky zones, day system and Last Chance
-- [ ] Day 5: Visuals and UI
-- [ ] Day 6: Sound, small animations, fish shadows and game feel
+- [ ] Day 1: Lucky number, casting, bucket and return decision
+- [ ] Day 2: Sale, jackpot, torn net and cursed fish
+- [ ] Day 3: Day cycle, debt and game over
+- [ ] Day 4: Shop and first charms
+- [ ] Day 5: Pixel art scene and interface
+- [ ] Day 6: Sound, small animations and game feel
 - [ ] Day 7: Balancing, testing and upload
+
+## Open questions
+
+- What does the lucky fish do on a 13 day?
+- Is the daily cost rent or boat debt, how much does it rise, and when is it paid?
+- What is the full fish list, and how likely is each fish to appear?
+- How do the bait and rod items differ, and how much do they cost?
+- How does the Second Bucket assign fish and set its second target?
 
 ## Claude Code starter prompt
 
 Paste this prompt into Claude Code to get started.
 
 ```text
-We are making a single-player fishing game in Unity.
+We are making a single-screen, single-player fishing game in Unity with minimalist pixel art.
 First, write these rules to a GAME_DESIGN.md file.
 Then build a working first version using simple shapes for visuals.
-The dial is the most important part of the game. Focus on making it feel good first.
-
-Goal:
-- Complete each day by catching a Golden Fish before bait runs out, and reach as many days as possible.
-- The game has no money or economy system.
 
 Core loop:
-- A lucky number from 1 to 100 is set at the start of the game. The player can type it or get a random one.
-- Each cast costs 1 bait.
-- The needle starts at a random number on a horizontal dial and moves between 1 and 100.
-- The player stops the needle. The result depends on the zone where it stops.
-- The needle speeds up slightly with each cast.
+- Each morning, the harbor fortune teller announces the day's lucky number from 12 to 24.
+- The player casts the rod and catches a fish with a number on it.
+- The fish goes into the bucket and its number is added to the bucket total.
+- After each catch, the player chooses to cast again or return to the harbor.
+- The day lasts until the player returns or the net tears.
 
-Zones:
-- Golden zone (lucky number ±2, 5%): The day is completed
-- Rare zone (8%): The Golden and Rare zones widen by 1 number
-- Good zone (10%): The fish can be shredded for 2 bait
-- Common zone (10%): The fish can be shredded for 1 bait
-- Crap (remaining area): One more unlucky zone is added for that day
+Results:
+- Return below the lucky number: earn the bucket total.
+- Return exactly on the lucky number: jackpot, earn the bucket total × 3.
+- Go above the lucky number: the net tears, all fish escape and the player earns 0.
 
-Dial:
-- It always shows the full 1-100 range, with numbers under the tick marks.
-- The lucky number stays in its real position and is clearly marked.
-- The current number is shown above the needle.
-- Zones use subtle colors, and their layout is regenerated every day.
-- If the Golden zone reaches the end of the dial, it continues from the other end.
+Fish:
+- Anchovy: 2
+- Sea bass: 5
+- Bonito: 7
+- Cursed fish: 13
 
-Zone placement order:
-1. Place the Golden zone on the lucky number.
-2. The 3 numbers on each side of the Golden zone cannot be Crap. Any numbers left empty here become Common Fish.
-3. Place the unlucky zone outside the Golden zone and the safe area.
-4. Distribute the Rare, Good and Common zones across the empty spaces. Split each share into 1-2 pieces, with each piece at least 3 numbers wide.
-5. Make everything left over Crap.
+Cursed fish:
+- It does not add to the bucket total.
+- A random fish escapes from the bucket, and the total drops by its number.
+- If the bucket is empty, nothing happens.
 
-Zone expansion:
-- The Golden zone starts at ±2 every day.
-- Expansion takes space from the Crap area and resets at the end of the day.
-- Keep the daily expansion limit in the settings file, with a starting value of 2.
+Fortune teller:
+- The screen shows the day's fish list.
+- The fortune teller can give hints such as "Bonito is plentiful today."
+- Rarely, the lucky number is 13. On those days, the cursed fish becomes a lucky fish. Leave its exact effect as a placeholder for now.
 
-Unlucky zones:
-- The first unlucky zone is chosen again every day and is about 5 numbers wide.
-- It starts hidden. Once hit, it stays red until the end of the day.
-- If the needle stops in this zone, the player loses 2 bait in total and the Crap effect does not trigger. Bait cannot go below 0.
-- There can be at most 5 unlucky zones in a day. Added zones are removed at the end of the day.
+Debt:
+- Rent or boat debt rises every day.
+- The game ends if the player cannot pay.
+- Use placeholder values in the settings file for now.
 
-Day system:
-- The day ends when a Golden Fish is caught. This check runs before the out-of-bait check.
-- The player starts with 10 bait. Remaining bait carries over to the next day, and 5 bait are added.
-- The lucky number stays the same for the whole run.
-- The needle starts slightly faster each new day.
-
-Last Chance:
-- When bait runs out, the player gets one free last cast and the needle slows down by one step.
-- An exact hit gives a Golden Fish and completes the day.
-- Every other result ends the game. The score is the number of days reached.
+Shop:
+- Money buys bait and rods that work like Balatro's charms.
+- Add Deep Bait: only high-number fish come.
+- Add Amulet: cancels the cursed 13 once.
+- Leave Second Bucket for later.
 
 Technical rules:
-- Keep all balance values and zone shares in a single settings file.
-- Put day setup in StartDay() and new game setup in ResetRun().
-- Refresh the dial layout, zone expansions and unlucky zones in StartDay().
-- Do not add a shop, skill tree, fish shadows or persistent saves at this stage.
+- Keep fish, shop and debt values in a single settings file.
+- StartDay() picks the lucky number and fish list, then empties the bucket.
+- ResetRun() resets the values for a new game and calls StartDay().
+- Define charms as data with small effect hooks.
 ```

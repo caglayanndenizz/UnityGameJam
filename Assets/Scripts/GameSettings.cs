@@ -1,11 +1,12 @@
 /// Single place for Lucky Rod's balance values, per GAME_DESIGN.md's technical rules.
-/// Add new tunables here (bait, zone shares, per-cast speed-up, ...) instead of
-/// scattering magic numbers across scripts.
+/// Add new tunables here (fish list, shop prices, debt, ...) as they're needed instead
+/// of scattering magic numbers across scripts.
 public static class GameSettings
 {
-    public const int DialMin = 1;
-    public const int DialMax = 100;
+    public const int LuckyNumberMin = 12;
+    public const int LuckyNumberMax = 24;
 
-    /// Numbers per second the needle sweeps across the dial.
-    public const float NeedleSpeed = 40f;
+    // Every fish/card is worth a number in this range, like a playing card.
+    public const int FishValueMin = 1;
+    public const int FishValueMax = 13;
 }
