@@ -1,0 +1,1378 @@
+fileFormatVersion: 2
+guid: 5502ed7d9445ae241b927aa425daa2eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2984129434629568001
+    second: crab_animation_16x16_0
+  - first:
+      213: -8930946685910786216
+    second: crab_animation_16x16_1
+  - first:
+      213: 3410860756331233170
+    second: crab_animation_16x16_2
+  - first:
+      213: 9089368693695748592
+    second: crab_animation_16x16_3
+  - first:
+      213: -7164804084593964289
+    second: crab_animation_16x16_4
+  - first:
+      213: 5324383546253215447
+    second: crab_animation_16x16_5
+  - first:
+      213: 6222218974945447018
+    second: crab_animation_16x16_6
+  - first:
+      213: 6770201549535930006
+    second: crab_animation_16x16_7
+  - first:
+      213: -9221891753180805900
+    second: crab_animation_16x16_8
+  - first:
+      213: 8230079844268386189
+    second: crab_animation_16x16_9
+  - first:
+      213: -459145778585816647
+    second: crab_animation_16x16_10
+  - first:
+      213: -8328597331317429894
+    second: crab_animation_16x16_11
+  - first:
+      213: 614679097462582578
+    second: crab_animation_16x16_12
+  - first:
+      213: 3703911227978189878
+    second: crab_animation_16x16_13
+  - first:
+      213: -7675095644289106151
+    second: crab_animation_16x16_14
+  - first:
+      213: 7058971250018399296
+    second: crab_animation_16x16_15
+  - first:
+      213: -7708017362089865853
+    second: crab_animation_16x16_16
+  - first:
+      213: 6074145831604928032
+    second: crab_animation_16x16_17
+  - first:
+      213: -5032671073568958084
+    second: crab_animation_16x16_18
+  - first:
+      213: 3221288469162823045
+    second: crab_animation_16x16_19
+  - first:
+      213: -808485995404461395
+    second: crab_animation_16x16_20
+  - first:
+      213: -1083541038665114349
+    second: crab_animation_16x16_21
+  - first:
+      213: 8745009051365134001
+    second: crab_animation_16x16_22
+  - first:
+      213: -4420904675868673745
+    second: crab_animation_16x16_23
+  - first:
+      213: 8775544204219877852
+    second: crab_animation_16x16_24
+  - first:
+      213: -3221508638961158931
+    second: crab_animation_16x16_25
+  - first:
+      213: 8970609747741328468
+    second: crab_animation_16x16_26
+  - first:
+      213: 5033193151262030901
+    second: crab_animation_16x16_27
+  - first:
+      213: 5042288880945323481
+    second: crab_animation_16x16_28
+  - first:
+      213: 1949652816160290560
+    second: crab_animation_16x16_29
+  - first:
+      213: 1783144729851527498
+    second: crab_animation_16x16_30
+  - first:
+      213: -2041410828091044926
+    second: crab_animation_16x16_31
+  - first:
+      213: 347294615611283991
+    second: crab_animation_16x16_32
+  - first:
+      213: 7551440928063371905
+    second: crab_animation_16x16_33
+  - first:
+      213: 8568865378661584242
+    second: crab_animation_16x16_34
+  - first:
+      213: -3181082384288599499
+    second: crab_animation_16x16_35
+  - first:
+      213: -602110113909840082
+    second: crab_animation_16x16_36
+  - first:
+      213: -7049253181421388449
+    second: crab_animation_16x16_37
+  - first:
+      213: -3054402619821889760
+    second: crab_animation_16x16_38
+  - first:
+      213: -2985663800982679340
+    second: crab_animation_16x16_39
+  - first:
+      213: -5226419232808479222
+    second: crab_animation_16x16_40
+  - first:
+      213: -5314589948707900779
+    second: crab_animation_16x16_41
+  - first:
+      213: 3597291526671849582
+    second: crab_animation_16x16_42
+  - first:
+      213: 9190076248389897431
+    second: crab_animation_16x16_43
+  - first:
+      213: 5680490578629369984
+    second: crab_animation_16x16_44
+  - first:
+      213: -2241665144842266774
+    second: crab_animation_16x16_45
+  - first:
+      213: -6497416865806571546
+    second: crab_animation_16x16_46
+  - first:
+      213: -2504932105324379964
+    second: crab_animation_16x16_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: crab_animation_16x16_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff90e1df61e3696d0800000000000000
+      internalID: -2984129434629568001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 175
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fd55eae47ee0480800000000000000
+      internalID: -8930946685910786216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f717f49cfc55f20800000000000000
+      internalID: 3410860756331233170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 175
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f99a4c5bace32e70800000000000000
+      internalID: 9089368693695748592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 159
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa428455a0819c90800000000000000
+      internalID: -7164804084593964289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_5
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 159
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d68b5220a204e940800000000000000
+      internalID: 5324383546253215447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_6
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 159
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c8154e033c95650800000000000000
+      internalID: 6222218974945447018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_7
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 159
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69663e1707694fd50800000000000000
+      internalID: 6770201549535930006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4cd866f42450080800000000000000
+      internalID: -9221891753180805900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 143
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8728b6730e173270800000000000000
+      internalID: 8230079844268386189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1b547d859c0a9f0800000000000000
+      internalID: -459145778585816647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 143
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79ee8d9ad0ea6c80800000000000000
+      internalID: -8328597331317429894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 127
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d6d17e167c78800800000000000000
+      internalID: 614679097462582578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 127
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c883f33afe66330800000000000000
+      internalID: 3703911227978189878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 127
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ffff80d259c7590800000000000000
+      internalID: -7675095644289106151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 127
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044ba0da3f086f160800000000000000
+      internalID: 7058971250018399296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d071a4c0f970590800000000000000
+      internalID: -7708017362089865853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 111
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e3bbe9373bb4450800000000000000
+      internalID: 6074145831604928032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79d984a25c582ab0800000000000000
+      internalID: -5032671073568958084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 111
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d038babc054bc20800000000000000
+      internalID: 3221288469162823045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 95
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daaf90e454ea7c4f0800000000000000
+      internalID: -808485995404461395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 95
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ddeca8a2d76f0f0800000000000000
+      internalID: -1083541038665114349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_22
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 95
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bec13036638c5970800000000000000
+      internalID: 8745009051365134001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_23
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 95
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29fbf8ce9ac5a2c0800000000000000
+      internalID: -4420904675868673745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9834b75fef8c970800000000000000
+      internalID: 8775544204219877852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 79
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de43edd06f6ea43d0800000000000000
+      internalID: -3221508638961158931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45447c889020e7c70800000000000000
+      internalID: 8970609747741328468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 79
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53cf6ea018e79d540800000000000000
+      internalID: 5033193151262030901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 63
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ddd5a3a50fc9f540800000000000000
+      internalID: 5042288880945323481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_29
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 63
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007f29618ee8e0b10800000000000000
+      internalID: 1949652816160290560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_30
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 63
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4109ed2fa00fb810800000000000000
+      internalID: 1783144729851527498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_31
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb4ffeeaa37ba3e0800000000000000
+      internalID: -2041410828091044926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a9ae3ec96d1d400800000000000000
+      internalID: 347294615611283991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 47
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a309bc38b1cc860800000000000000
+      internalID: 7551440928063371905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d444f79a9bae670800000000000000
+      internalID: 8568865378661584242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 47
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532b933fc668ad3d0800000000000000
+      internalID: -3181082384288599499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 31
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27ebb0aa00e4a7f0800000000000000
+      internalID: -602110113909840082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_37
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 31
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5df59d74950c2e90800000000000000
+      internalID: -7049253181421388449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_38
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 31
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0276e7c00059c95d0800000000000000
+      internalID: -3054402619821889760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_39
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 31
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d05fab779ac096d0800000000000000
+      internalID: -2985663800982679340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a065e2506670877b0800000000000000
+      internalID: -5226419232808479222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 15
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592776c7998ce36b0800000000000000
+      internalID: -5314589948707900779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e685cc095952ce130800000000000000
+      internalID: 3597291526671849582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 15
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcc80428a5b98f70800000000000000
+      internalID: 9190076248389897431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_44
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0802821b51825de40800000000000000
+      internalID: 5680490578629369984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_45
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a675d487d6104e0e0800000000000000
+      internalID: -2241665144842266774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_46
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7a7fb09c984d5a0800000000000000
+      internalID: -6497416865806571546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crab_animation_16x16_47
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c04bab9581bc3dd0800000000000000
+      internalID: -2504932105324379964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      crab_animation_16x16_0: -2984129434629568001
+      crab_animation_16x16_1: -8930946685910786216
+      crab_animation_16x16_10: -459145778585816647
+      crab_animation_16x16_11: -8328597331317429894
+      crab_animation_16x16_12: 614679097462582578
+      crab_animation_16x16_13: 3703911227978189878
+      crab_animation_16x16_14: -7675095644289106151
+      crab_animation_16x16_15: 7058971250018399296
+      crab_animation_16x16_16: -7708017362089865853
+      crab_animation_16x16_17: 6074145831604928032
+      crab_animation_16x16_18: -5032671073568958084
+      crab_animation_16x16_19: 3221288469162823045
+      crab_animation_16x16_2: 3410860756331233170
+      crab_animation_16x16_20: -808485995404461395
+      crab_animation_16x16_21: -1083541038665114349
+      crab_animation_16x16_22: 8745009051365134001
+      crab_animation_16x16_23: -4420904675868673745
+      crab_animation_16x16_24: 8775544204219877852
+      crab_animation_16x16_25: -3221508638961158931
+      crab_animation_16x16_26: 8970609747741328468
+      crab_animation_16x16_27: 5033193151262030901
+      crab_animation_16x16_28: 5042288880945323481
+      crab_animation_16x16_29: 1949652816160290560
+      crab_animation_16x16_3: 9089368693695748592
+      crab_animation_16x16_30: 1783144729851527498
+      crab_animation_16x16_31: -2041410828091044926
+      crab_animation_16x16_32: 347294615611283991
+      crab_animation_16x16_33: 7551440928063371905
+      crab_animation_16x16_34: 8568865378661584242
+      crab_animation_16x16_35: -3181082384288599499
+      crab_animation_16x16_36: -602110113909840082
+      crab_animation_16x16_37: -7049253181421388449
+      crab_animation_16x16_38: -3054402619821889760
+      crab_animation_16x16_39: -2985663800982679340
+      crab_animation_16x16_4: -7164804084593964289
+      crab_animation_16x16_40: -5226419232808479222
+      crab_animation_16x16_41: -5314589948707900779
+      crab_animation_16x16_42: 3597291526671849582
+      crab_animation_16x16_43: 9190076248389897431
+      crab_animation_16x16_44: 5680490578629369984
+      crab_animation_16x16_45: -2241665144842266774
+      crab_animation_16x16_46: -6497416865806571546
+      crab_animation_16x16_47: -2504932105324379964
+      crab_animation_16x16_5: 5324383546253215447
+      crab_animation_16x16_6: 6222218974945447018
+      crab_animation_16x16_7: 6770201549535930006
+      crab_animation_16x16_8: -9221891753180805900
+      crab_animation_16x16_9: 8230079844268386189
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

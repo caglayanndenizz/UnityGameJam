@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 91c0660b488196a4bbeb4b1074279617
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8125364450562674617
+    second: boat_base_64x64_0
+  - first:
+      213: -5653327654445415058
+    second: boat_base_64x64_1
+  - first:
+      213: 8327590374762771078
+    second: boat_base_64x64_2
+  - first:
+      213: 641687829825071709
+    second: boat_base_64x64_3
+  - first:
+      213: -7621092745762277341
+    second: boat_base_64x64_4
+  - first:
+      213: -7548054716361483878
+    second: boat_base_64x64_5
+  - first:
+      213: 5538992067176324991
+    second: boat_base_64x64_6
+  - first:
+      213: 2744849357287392398
+    second: boat_base_64x64_7
+  - first:
+      213: -1630386791405334190
+    second: boat_base_64x64_8
+  - first:
+      213: 1156714236868843369
+    second: boat_base_64x64_9
+  - first:
+      213: 5569209612892029474
+    second: boat_base_64x64_10
+  - first:
+      213: 6209846752690068154
+    second: boat_base_64x64_11
+  - first:
+      213: 1162437405648640834
+    second: boat_base_64x64_12
+  - first:
+      213: 2838858088891130727
+    second: boat_base_64x64_13
+  - first:
+      213: 5899698582512448803
+    second: boat_base_64x64_14
+  - first:
+      213: -338655972623068265
+    second: boat_base_64x64_15
+  - first:
+      213: -8996060035587511389
+    second: boat_base_64x64_16
+  - first:
+      213: 31580700294693054
+    second: boat_base_64x64_17
+  - first:
+      213: 6975829517746955732
+    second: boat_base_64x64_18
+  - first:
+      213: -2401708160176363941
+    second: boat_base_64x64_19
+  - first:
+      213: 6106057422065195937
+    second: boat_base_64x64_20
+  - first:
+      213: 1924616223826994228
+    second: boat_base_64x64_21
+  - first:
+      213: -932497116349261214
+    second: boat_base_64x64_22
+  - first:
+      213: -3687868392393836100
+    second: boat_base_64x64_23
+  - first:
+      213: 4968320014722867587
+    second: boat_base_64x64_24
+  - first:
+      213: 2118490027660191290
+    second: boat_base_64x64_25
+  - first:
+      213: 7150897662182494497
+    second: boat_base_64x64_26
+  - first:
+      213: -6501900049990109640
+    second: boat_base_64x64_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boat_base_64x64_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf0062fae713c070800000000000000
+      internalID: 8125364450562674617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 197
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6583ed63785b81b0800000000000000
+      internalID: -5653327654445415058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 210
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68272ba035b819370800000000000000
+      internalID: 8327590374762771078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 197
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a2a617eabb7e800800000000000000
+      internalID: 641687829825071709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 210
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3287888a6807c3690800000000000000
+      internalID: -7621092745762277341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_5
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 197
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99df0e0a3cef3790800000000000000
+      internalID: -7548054716361483878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 210
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f50c130f37edc40800000000000000
+      internalID: 5538992067176324991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_7
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 197
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84031792f9a71620800000000000000
+      internalID: 2744849357287392398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 146
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251dbc3f9d3bf59e0800000000000000
+      internalID: -1630386791405334190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_9
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 133
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967543b48797d0010800000000000000
+      internalID: 1156714236868843369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_10
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 146
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222ce10d2aec94d40800000000000000
+      internalID: 5569209612892029474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_11
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 133
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba54bb68becd2650800000000000000
+      internalID: 6209846752690068154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_12
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 146
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b505d59aec12010800000000000000
+      internalID: 1162437405648640834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_13
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 133
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763a9141466a56720800000000000000
+      internalID: 2838858088891130727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_14
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 146
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325b7845a90ffd150800000000000000
+      internalID: 5899698582512448803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_15
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 133
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793dcbaef2adc4bf0800000000000000
+      internalID: -338655972623068265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 65
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abe7b09f03972380800000000000000
+      internalID: -8996060035587511389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 34
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0c2d6ca72307000800000000000000
+      internalID: 31580700294693054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_18
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 79
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5edf2acff1fc060800000000000000
+      internalID: 6975829517746955732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_19
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 34
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56e782372b6baed0800000000000000
+      internalID: -2401708160176363941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 79
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab5554cfd21db450800000000000000
+      internalID: 6106057422065195937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_21
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 0
+        width: 35
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434692e224c95ba10800000000000000
+      internalID: 1924616223826994228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_22
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 79
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a1de130da1f03f0800000000000000
+      internalID: -932497116349261214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_23
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 0
+        width: 34
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb979fc7c3f02dcc0800000000000000
+      internalID: -3687868392393836100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 65
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3812508eab403f440800000000000000
+      internalID: 4968320014722867587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_25
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 15
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36a4e6b473666d10800000000000000
+      internalID: 2118490027660191290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_26
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 15
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1211f8369871d3360800000000000000
+      internalID: 7150897662182494497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boat_base_64x64_27
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 15
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836be336a5c94c5a0800000000000000
+      internalID: -6501900049990109640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boat_base_64x64_0: 8125364450562674617
+      boat_base_64x64_1: -5653327654445415058
+      boat_base_64x64_10: 5569209612892029474
+      boat_base_64x64_11: 6209846752690068154
+      boat_base_64x64_12: 1162437405648640834
+      boat_base_64x64_13: 2838858088891130727
+      boat_base_64x64_14: 5899698582512448803
+      boat_base_64x64_15: -338655972623068265
+      boat_base_64x64_16: -8996060035587511389
+      boat_base_64x64_17: 31580700294693054
+      boat_base_64x64_18: 6975829517746955732
+      boat_base_64x64_19: -2401708160176363941
+      boat_base_64x64_2: 8327590374762771078
+      boat_base_64x64_20: 6106057422065195937
+      boat_base_64x64_21: 1924616223826994228
+      boat_base_64x64_22: -932497116349261214
+      boat_base_64x64_23: -3687868392393836100
+      boat_base_64x64_24: 4968320014722867587
+      boat_base_64x64_25: 2118490027660191290
+      boat_base_64x64_26: 7150897662182494497
+      boat_base_64x64_27: -6501900049990109640
+      boat_base_64x64_3: 641687829825071709
+      boat_base_64x64_4: -7621092745762277341
+      boat_base_64x64_5: -7548054716361483878
+      boat_base_64x64_6: 5538992067176324991
+      boat_base_64x64_7: 2744849357287392398
+      boat_base_64x64_8: -1630386791405334190
+      boat_base_64x64_9: 1156714236868843369
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

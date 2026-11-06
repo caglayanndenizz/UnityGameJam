@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 44169761599edb1418bb9dceaebefe00
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6421699818691617482
+    second: char2_fishingrod_animation_32x32_0
+  - first:
+      213: -4726354139521922834
+    second: char2_fishingrod_animation_32x32_1
+  - first:
+      213: 5472388671950543073
+    second: char2_fishingrod_animation_32x32_2
+  - first:
+      213: -8506643825891872824
+    second: char2_fishingrod_animation_32x32_3
+  - first:
+      213: 6140687839212022257
+    second: char2_fishingrod_animation_32x32_4
+  - first:
+      213: 8258484807502735177
+    second: char2_fishingrod_animation_32x32_5
+  - first:
+      213: -6756288311386950033
+    second: char2_fishingrod_animation_32x32_6
+  - first:
+      213: -3992475475683351730
+    second: char2_fishingrod_animation_32x32_7
+  - first:
+      213: -3101058624390150798
+    second: char2_fishingrod_animation_32x32_8
+  - first:
+      213: 7988416793068853985
+    second: char2_fishingrod_animation_32x32_9
+  - first:
+      213: -6212425293453017154
+    second: char2_fishingrod_animation_32x32_10
+  - first:
+      213: -1438686771703073635
+    second: char2_fishingrod_animation_32x32_11
+  - first:
+      213: 5607188446843389338
+    second: char2_fishingrod_animation_32x32_12
+  - first:
+      213: 4701917757546829213
+    second: char2_fishingrod_animation_32x32_13
+  - first:
+      213: -3214794815402413933
+    second: char2_fishingrod_animation_32x32_14
+  - first:
+      213: 947418952367044384
+    second: char2_fishingrod_animation_32x32_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: char2_fishingrod_animation_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 104
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2ed4326f57e1950800000000000000
+      internalID: 6421699818691617482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char2_fishingrod_animation_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 96
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8491f83fd986eb0800000000000000
+      internalID: -4726354139521922834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char2_fishingrod_animation_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 99
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8db70d084d1fb40800000000000000
+      internalID: 5472388671950543073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char2_fishingrod_animation_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 104
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfe1fea28452f980800000000000000
+      internalID: -8506643825891872824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char2_fishingrod_animation_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 69
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f92bc41e0b183550800000000000000
+      internalID: 6140687839212022257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char2_fishingrod_animation_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 69
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94729265d280c9270800000000000000
+      internalID: 8258484807502735177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char2_fishingrod_animation_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 69
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6638afb397dc32a0800000000000000
+      internalID: -6756288311386950033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char2_fishingrod_animation_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 69
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e436f6935b0e798c0800000000000000
+      internalID: -3992475475683351730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char2_fishingrod_animation_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 39
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27540997c93d6f4d0800000000000000
+      internalID: -3101058624390150798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char2_fishingrod_animation_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 38
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea52a4bfbe8cde60800000000000000
+      internalID: 7988416793068853985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char2_fishingrod_animation_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 39
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfb4164c1809c9a0800000000000000
+      internalID: -6212425293453017154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char2_fishingrod_animation_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 39
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94b59de002c80ce0800000000000000
+      internalID: -1438686771703073635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char2_fishingrod_animation_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9546ca2f2cb0dd40800000000000000
+      internalID: 5607188446843389338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char2_fishingrod_animation_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 5
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d951ea5e941904140800000000000000
+      internalID: 4701917757546829213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char2_fishingrod_animation_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 5
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390fb2ae521c263d0800000000000000
+      internalID: -3214794815402413933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char2_fishingrod_animation_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 5
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0277f4d7488e52d00800000000000000
+      internalID: 947418952367044384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      char2_fishingrod_animation_32x32_0: 6421699818691617482
+      char2_fishingrod_animation_32x32_1: -4726354139521922834
+      char2_fishingrod_animation_32x32_10: -6212425293453017154
+      char2_fishingrod_animation_32x32_11: -1438686771703073635
+      char2_fishingrod_animation_32x32_12: 5607188446843389338
+      char2_fishingrod_animation_32x32_13: 4701917757546829213
+      char2_fishingrod_animation_32x32_14: -3214794815402413933
+      char2_fishingrod_animation_32x32_15: 947418952367044384
+      char2_fishingrod_animation_32x32_2: 5472388671950543073
+      char2_fishingrod_animation_32x32_3: -8506643825891872824
+      char2_fishingrod_animation_32x32_4: 6140687839212022257
+      char2_fishingrod_animation_32x32_5: 8258484807502735177
+      char2_fishingrod_animation_32x32_6: -6756288311386950033
+      char2_fishingrod_animation_32x32_7: -3992475475683351730
+      char2_fishingrod_animation_32x32_8: -3101058624390150798
+      char2_fishingrod_animation_32x32_9: 7988416793068853985
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
