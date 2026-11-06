@@ -13,10 +13,17 @@ minigame.
 - Single-screen, single-player, minimalist pixel art.
 - Engine: Unity.
 
+## Main menu and lucky number roll
+
+- The game opens on a main menu with a Start button.
+- Clicking Start begins the run and plays the lucky number roll: a roulette wheel with
+  a ball-throw animation picks the day's lucky number (12 to 24). This is the visual
+  form of the fortune teller's announcement from the Core loop below.
+
 ## Core loop
 
-- Each morning, the harbor fortune teller announces the day's lucky number, chosen from
-  12 to 24.
+- Each morning, the harbor fortune teller announces the day's lucky number (via the
+  roulette roll above), chosen from 12 to 24.
 - The player casts the rod and catches a fish with a number on it.
 - The fish goes into the bucket and its number is added to the bucket total.
 - After each catch, the player chooses to cast again or return to the harbor.
@@ -77,6 +84,8 @@ minigame.
 - What is the full fish list, and how likely is each fish to appear?
 - How do the bait and rod items differ, and how much do they cost?
 - How does the Second Bucket assign fish and set its second target?
+- Does the roulette ball-throw animation play only once at the start of a run, or every
+  time a new day rolls a lucky number?
 
 ## Implementation progress
 

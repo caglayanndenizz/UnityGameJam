@@ -5,8 +5,4 @@ public static class GameSettings
 {
     public const int LuckyNumberMin = 12;
     public const int LuckyNumberMax = 24;
-
-    // Every fish/card is worth a number in this range, like a playing card.
-    public const int FishValueMin = 1;
-    public const int FishValueMax = 13;
 }

@@ -1,45 +1,82 @@
-using TMPro;
+using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Quick test rig: a Cast button that plays the player's fishing animation and rolls
-// the day's lucky number. The water splash is its own animation now (done by hand),
-// and the real catching logic isn't here yet - this is only the first look.
-//
-// The button and label are built by hand in the scene (not from code) so they can
-// actually be styled - drag them into the fields below in the Inspector.
+public enum FishingState
+{
+    Idle,
+    Fishing,
+    AfterFishing,
+}
+
+// Drives the player's fishing animation through 3 states:
+// Idle (waiting, button clickable) -> Fishing (animation playing, button disabled,
+// a fish arrives automatically after fishingDuration) -> AfterFishing (shows the
+// catch). The UI for each state is built separately: it reads
+// State/CaughtFishName/CaughtFishValue (or listens to StateChanged) to decide what to
+// show, and calls CloseResult() once the player dismisses the AfterFishing screen to
+// go back to Idle.
 [RequireComponent(typeof(Animator))]
 public class PlayerFishing : MonoBehaviour
 {
     [SerializeField] private Button castButton;
-    [SerializeField] private TMP_Text luckyNumberLabel;
+    [SerializeField] private float fishingDuration = 2f;
 
     private Animator _animator;
-    private int _luckyNumber;
+
+    public FishingState State { get; private set; }
+    public string CaughtFishName { get; private set; }
+    public int CaughtFishValue { get; private set; }
+    public Sprite CaughtFishIcon { get; private set; }
+
+    public event Action<FishingState> StateChanged;
 
     private void Awake()
     {
         _animator = GetComponent<Animator>();
 
         // The animator's only state currently auto-plays on a loop. Turn it off so the
-        // player just stands still until the Cast button is actually pressed.
+        // player just stands still until fishing actually starts.
         _animator.enabled = false;
 
-        castButton.onClick.AddListener(Cast);
-
-        RollLuckyNumber();
+        castButton.onClick.AddListener(StartFishing);
     }
 
-    // Wired to the Cast button's onClick.
-    public void Cast()
+    private void StartFishing()
     {
+        castButton.interactable = false;
         _animator.enabled = true;
         _animator.Play("player_fishing", 0, 0f);
+        SetState(FishingState.Fishing);
+
+        StartCoroutine(WaitThenFinishFishing());
     }
 
-    private void RollLuckyNumber()
+    private IEnumerator WaitThenFinishFishing()
     {
-        _luckyNumber = Random.Range(GameSettings.LuckyNumberMin, GameSettings.LuckyNumberMax + 1);
-        luckyNumberLabel.text = $"Lucky number: {_luckyNumber}";
+        yield return new WaitForSeconds(fishingDuration);
+
+        _animator.enabled = false;
+
+        FishCard caught = GameManager.Instance.FishPool.GetRandomFish();
+        CaughtFishName = caught.FishName;
+        CaughtFishValue = caught.Value;
+        CaughtFishIcon = caught.Icon;
+
+        SetState(FishingState.AfterFishing);
+    }
+
+    // Called by the AfterFishing UI once the player dismisses it.
+    public void CloseResult()
+    {
+        castButton.interactable = true;
+        SetState(FishingState.Idle);
+    }
+
+    private void SetState(FishingState newState)
+    {
+        State = newState;
+        StateChanged?.Invoke(State);
     }
 }
