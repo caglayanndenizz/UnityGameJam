@@ -105,3 +105,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FishCard
   value: 2
   fishName: TurdFish
+  icon: {fileID: -2735772604806598854, guid: b263114a1b3814e458703d916d5304d1, type: 3}

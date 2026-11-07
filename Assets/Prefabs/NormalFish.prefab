@@ -105,3 +105,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FishCard
   value: 5
   fishName: HighFiveFish
+  icon: {fileID: 4587782728765137828, guid: b263114a1b3814e458703d916d5304d1, type: 3}

@@ -106,6 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FishCard
   value: 13
   fishName: Cursed
+  icon: {fileID: -7899909837128130045, guid: b263114a1b3814e458703d916d5304d1, type: 3}
 --- !u!114 &-7376444899744168561
 MonoBehaviour:
   m_ObjectHideFlags: 0

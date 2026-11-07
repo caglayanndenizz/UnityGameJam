@@ -57,12 +57,16 @@ public class PlayerFishing : MonoBehaviour
     {
         yield return new WaitForSeconds(fishingDuration);
 
+        _animator.Play("player_fishing", 0, 0f);
+        _animator.Update(0f);
         _animator.enabled = false;
 
         FishCard caught = GameManager.Instance.FishPool.GetRandomFish();
         CaughtFishName = caught.FishName;
         CaughtFishValue = caught.Value;
         CaughtFishIcon = caught.Icon;
+
+        GameManager.Instance.Bucket.AddFish(caught);
 
         SetState(FishingState.AfterFishing);
     }
