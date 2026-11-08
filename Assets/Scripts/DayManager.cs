@@ -10,13 +10,16 @@ public class DayManager : MonoBehaviour
     [SerializeField] private Button returnButton;
     [SerializeField] private TMP_Text luckyNumberLabel;
     [SerializeField] private TMP_Text resultLabel;
+    [SerializeField] private TMP_Text dayLabel;
 
     private int _luckyNumber;
     private bool _dayOver;
+    private int _day = 1;
 
     private void Awake()
     {
         returnButton.onClick.AddListener(ReturnToHarbor);
+        UpdateDayLabel();
     }
 
     // Called by GameManager once everything's Instance is ready, and again whenever a
@@ -25,16 +28,17 @@ public class DayManager : MonoBehaviour
     {
         _luckyNumber = Random.Range(GameSettings.LuckyNumberMin, GameSettings.LuckyNumberMax + 1);
         _dayOver = false;
-        GameManager.Instance.Bucket.Empty();
+        GameManager.Instance.BucketGrid.EmptyAll();
         GameManager.Instance.FishPool.RollDay();
         luckyNumberLabel.text = $"Lucky number: {_luckyNumber}";
         resultLabel.text = "";
+        UpdateDayLabel();
     }
 
-    // Called by FishCard right after it adds its value to the bucket.
-    public void CheckForBust()
+    // Called by PlayerFishing right after a catch is added to a bucket - each bucket
+    // is its own target, so only that one can tear.
+    public void CheckForBust(Bucket bucket)
     {
-        Bucket bucket = GameManager.Instance.Bucket;
         if (_dayOver || bucket.Total <= _luckyNumber) return;
 
         _dayOver = true;
@@ -45,13 +49,31 @@ public class DayManager : MonoBehaviour
     {
         if (_dayOver) return;
 
-        Bucket bucket = GameManager.Instance.Bucket;
+        int earned = 0;
+        bool jackpot = false;
+        foreach (Bucket bucket in GameManager.Instance.BucketGrid.Buckets)
+        {
+            if (bucket.Total == _luckyNumber)
+            {
+                jackpot = true;
+                earned += bucket.Total * 3;
+            }
+            else
+            {
+                earned += bucket.Total;
+            }
+        }
 
-        _dayOver = true;
-        resultLabel.text = bucket.Total == _luckyNumber
-            ? $"Jackpot! Earned {bucket.Total * 3}"
-            : $"Returned safely. Earned {bucket.Total}";
+        resultLabel.text = jackpot
+            ? $"Jackpot! Earned {earned}"
+            : $"Returned safely. Earned {earned}";
 
-        bucket.Empty();
+        _day++;
+        StartDay();
+    }
+
+    private void UpdateDayLabel()
+    {
+        dayLabel.text = $"Day: {_day}";
     }
 }

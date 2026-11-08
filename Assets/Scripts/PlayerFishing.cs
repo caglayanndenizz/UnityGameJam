@@ -66,7 +66,9 @@ public class PlayerFishing : MonoBehaviour
         CaughtFishValue = caught.Value;
         CaughtFishIcon = caught.Icon;
 
-        GameManager.Instance.Bucket.AddFish(caught);
+        Bucket target = GameManager.Instance.BucketGrid.SelectedBucket;
+        target.AddFish(caught);
+        GameManager.Instance.DayManager.CheckForBust(target);
 
         SetState(FishingState.AfterFishing);
     }

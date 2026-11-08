@@ -4,17 +4,37 @@ using UnityEngine;
 
 // Keeps the running total of fish the player has caught so far today, along with
 // each individual value - the cursed fish needs that list to make one escape.
+// Also doubles as a clickable target: with more than one bucket on screen (once
+// a boat upgrade grants extra ones), clicking a bucket tells BucketGrid to send
+// the next catch there instead.
+[RequireComponent(typeof(SpriteRenderer))]
 public class Bucket : MonoBehaviour
 {
+    private static readonly Color SelectedTint = Color.white;
+    private static readonly Color UnselectedTint = new Color(0.7f, 0.7f, 0.7f);
+
     [SerializeField] private TMP_Text totalLabel;
 
     private readonly List<int> _caughtValues = new List<int>();
+    private SpriteRenderer _spriteRenderer;
 
     public int Total { get; private set; }
 
     private void Awake()
     {
+        _spriteRenderer = GetComponent<SpriteRenderer>();
         UpdateLabel();
+    }
+
+    // Needs a Collider2D on this GameObject to receive the click.
+    private void OnMouseDown()
+    {
+        GameManager.Instance.BucketGrid.Select(this);
+    }
+
+    public void SetSelected(bool selected)
+    {
+        _spriteRenderer.color = selected ? SelectedTint : UnselectedTint;
     }
 
     public void AddFish(FishCard fish)

@@ -7,12 +7,12 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    [SerializeField] private Bucket bucket;
+    [SerializeField] private BucketGrid bucketGrid;
     [SerializeField] private DayManager dayManager;
     [SerializeField] private PlayerFishing playerFishing;
     [SerializeField] private FishPool fishPool;
 
-    public Bucket Bucket => bucket;
+    public BucketGrid BucketGrid => bucketGrid;
     public DayManager DayManager => dayManager;
     public PlayerFishing PlayerFishing => playerFishing;
     public FishPool FishPool => fishPool;
