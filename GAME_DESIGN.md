@@ -25,15 +25,32 @@ minigame.
 - Each morning, the harbor fortune teller announces the day's lucky number (via the
   roulette roll above), chosen from 12 to 24.
 - The player casts the rod and catches a fish with a number on it.
-- The fish goes into the bucket and its number is added to the bucket total.
+- The fish goes into whichever bucket is currently selected (see Buckets) and its
+  number is added to that bucket's total.
 - After each catch, the player chooses to cast again or return to the harbor.
 - The day lasts until the player returns or the net tears.
+- Returning to the harbor pays out and immediately rolls the next day (day count +1,
+  new lucky number, buckets emptied) so the player keeps fishing run after run. There
+  is no end to this loop yet - it keeps going until debt/game over is wired up.
 
 ## Results (on returning to the harbor)
 
-- Bucket total below the lucky number: normal sale, earn the bucket total.
-- Bucket total exactly equal to the lucky number: jackpot, earn the bucket total × 3.
-- Bucket total above the lucky number: the net tears, all fish escape, earn 0.
+- Checked per bucket, then summed into one payout:
+  - Bucket total below the lucky number: normal sale, earn the bucket total.
+  - Bucket total exactly equal to the lucky number: jackpot, earn the bucket total × 3.
+- Any bucket's total going above the lucky number tears the net immediately (checked
+  right after that catch, not only at return) and ends the day for every bucket at
+  once - all fish in all buckets escape, earn 0.
+
+## Buckets
+
+- The player starts with one bucket. A boat upgrade (see Rod and boat upgrades) adds
+  one more, laid out side by side.
+- With more than one bucket, the player clicks a bucket to select it as the target -
+  the next catch goes into whichever one is selected.
+- Each bucket keeps its own total and is judged independently against the day's
+  lucky number for sale/jackpot, but one bucket tearing its net currently ends the
+  whole day (see Open questions).
 
 ## Fish
 
@@ -65,17 +82,26 @@ minigame.
 
 ## Shop and charms
 
-- Money buys bait and rods that work like Balatro's charms and change how a run plays.
+- Money buys charms that work like Balatro's and change how a run plays.
 - Deep Bait: only high-number fish come.
 - Amulet: cancels the cursed 13 once.
-- Second Bucket: lets the player play with two separate targets (left for later).
+
+## Rod and boat upgrades
+
+- Separate from charms: the rod and the boat can each be upgraded.
+- Boat upgrade: adds one bucket to the bucket grid (see Buckets).
+- Not built yet - no shop flow or cost for these upgrades exists; `BucketGrid.AddBucket()`
+  exists and is ready to be called once this system is built, but nothing calls it yet.
+- What rod upgrades do, and what either upgrade costs, is still undecided.
 
 ## Technical rules
 
 - Keep fish, shop and debt values in a single settings file.
-- `StartDay()` picks the lucky number and fish list, then empties the bucket.
+- `StartDay()` picks the lucky number and fish list, then empties every bucket.
 - `ResetRun()` resets the values for a new game and calls `StartDay()`.
 - Define charms as data with small effect hooks, so new ones are cheap to add.
+- `BucketGrid` holds the active buckets and which one is selected; `PlayerFishing` adds
+  each catch to `BucketGrid.SelectedBucket` and checks that bucket for a bust.
 
 ## Open questions
 
@@ -83,7 +109,9 @@ minigame.
 - Is the daily cost rent or boat debt, how much does it rise, and when is it paid?
 - What is the full fish list, and how likely is each fish to appear?
 - How do the bait and rod items differ, and how much do they cost?
-- How does the Second Bucket assign fish and set its second target?
+- Should one bucket tearing its net end the whole day, or just that bucket, while the
+  others keep fishing? Currently it ends the whole day for all buckets.
+- How does the boat upgrade purchase work, and is there a maximum bucket count?
 - Does the roulette ball-throw animation play only once at the start of a run, or every
   time a new day rolls a lucky number?
 
